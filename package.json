@@ -1,12 +1,13 @@
 {
   "name": "hapi_api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "engines": {
-    "yarn": "1.22.5"
+    "node": "12.18.3"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc && node ./dist/index.js",
     "start": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"yarn run compile\""
   },

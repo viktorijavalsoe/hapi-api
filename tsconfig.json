@@ -1,19 +1,20 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true, 
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
     "outDir": "./dist",
     "allowJs": false,
-    // check which version is run on the server you use
-    "target": "es6",
-    "sourceMap": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
     "skipLibCheck": true,
-    //no nedd to write relative imports
-    //absolute import stream
     "baseUrl": "./src",
     //enable json import
     "resolveJsonModule": true,
-    "esModuleInterop": true  
+    "lib": [
+      "es2015"
+  ]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules"]
