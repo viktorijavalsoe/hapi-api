@@ -3,7 +3,7 @@ import { ApolloServer, gql } from "apollo-server-hapi";
 import users from './users.json';
 
 
-const HOST = "localhost";
+const HOST = '0.0.0.0';
 //allow Heroku to choose the port that the server is deployed to
 const PORT = process.env.PORT || 4000;
 
