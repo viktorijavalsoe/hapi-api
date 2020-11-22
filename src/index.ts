@@ -4,12 +4,13 @@ import users from './users.json';
 
 
 const HOST = "localhost";
+//allow Heroku to choose the port that the server is deployed to
 const PORT = process.env.PORT || 4000;
 
 const typeDefs = `
   type User {
-    name: String!
-    lastname: String!
+    first: String!
+    last: String!
     email: String!
   }
 
@@ -27,6 +28,8 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  introspection: true,
+  playground: true,
 });
 
 const app: Server = new Server({
