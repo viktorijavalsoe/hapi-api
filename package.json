@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "yarn": "1.22.5"
+  },
   "scripts": {
+    "compile": "tsc && node ./dist/index.js",
     "start": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"yarn run compile\"",
-    "compile": "tsc && node ./dist/index.js"
+    "deploy": "git add . && git commit -m Heroku && git push heroku master"
+
   },
   "dependencies": {
     "@hapi/hapi": "^20.0.1",
