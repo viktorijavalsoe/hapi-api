@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "allowJs": false,
-    // check which ersion is run on the server you use
+    // check which version is run on the server you use
     "target": "es6",
     "sourceMap": true,
     "module": "commonjs",
@@ -10,7 +10,10 @@
     "skipLibCheck": true,
     //no nedd to write relative imports
     //absolute import stream
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    //enable json import
+    "resolveJsonModule": true,
+    "esModuleInterop": true  
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules"]

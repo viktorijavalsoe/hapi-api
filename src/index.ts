@@ -1,26 +1,10 @@
 import { Server, Request, ResponseToolkit } from "@hapi/hapi";
 import { ApolloServer, gql } from "apollo-server-hapi";
+import users from './users.json';
+
 
 const HOST = "localhost";
 const PORT = 4000;
-
-const users = [
-  {
-    name: "Viktorija",
-    lastname: "Valso",
-    email: "viktorijavalsoe@gmail.com",
-  },
-  {
-    name: "Pierre",
-    lastname: "Hedquist",
-    email: "pierre@gmail.com",
-  },
-  {
-    name: "Robin",
-    lastname: "Something",
-    email: "robin@gmail.com",
-  },
-];
 
 const typeDefs = `
   type User {
