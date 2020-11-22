@@ -4,7 +4,7 @@ import users from './users.json';
 
 
 const HOST = "localhost";
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const typeDefs = `
   type User {
