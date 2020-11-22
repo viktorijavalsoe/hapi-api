@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": false,
+    // check which ersion is run on the server you use
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    //no nedd to write relative imports
+    //absolute import stream
+    "baseUrl": "./src"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "hapi_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"yarn run compile\"",
+    "compile": "tsc && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "apollo-server-hapi": "^2.18.2",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.1",
+    "@types/node": "^14.11.10",
+    "nodemon": "^2.0.5",
+    "typescript": "^4.0.3"
+  }
+}
