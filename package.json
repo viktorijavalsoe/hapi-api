@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc && node ./dist/index.js",
-    "start": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"yarn run compile\""
+    "start": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"yarn run compile\"",
+    "postinstall": "tsc"
   },
   "dependencies": {
     "@hapi/hapi": "^20.0.1",
