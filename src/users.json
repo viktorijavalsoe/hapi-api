@@ -1,80 +1,32 @@
 [
     {
       "id": 1,
-      "first": "Sarah",
-      "last": "Ronau",
-      "email": "Reno, NV"
+      "first": "Freyr`",
+      "last": "Danielsson",
+      "email": "freyr.danielsson@futurice.com"
     },
     {
       "id": 2,
-      "first": "Jenna",
-      "last": "Zigler",
-      "email": "Austin, TX"
+      "first": "Viktorija",
+      "last": "Valsoe",
+      "email": "viktorijavalsoe@gmail.com"
     },
     {
       "id": 3,
-      "first": "Chelsea",
-      "last": "Pettry",
-      "email": "Lambertville, MI"
+      "first": "Jens",
+      "last": "Östlund",
+      "email": "jens.ostlund@futurice.com"
     },
     {
       "id": 4,
-      "first": "Anna",
-      "last": "Kerner",
-      "email": "Truckee, CA"
+      "first": "Valentin",
+      "last": "Loschinin",
+      "email": "valentin.loschinin@futurice.com"
     },
     {
       "id": 5,
-      "first": "Catherine",
-      "last": "Cook",
-      "email": "Incline Village, NV"
-    },
-    {
-      "id": 6,
-      "first": "Ali",
-      "last": "Altimirano",
-      "email": "Tahoe City, CA"
-    },
-    {
-      "id": 7,
-      "first": "Andrea",
-      "last": "Fishman",
-      "email": "Tahoe Vista, CA"
-    },
-    {
-      "id": 8,
-      "first": "Jordan",
-      "last": "Vida",
-      "email": "Sausalito, CA"
-    },
-    {
-      "id": 9,
-      "first": "Ari",
-      "last": "Rehorn",
-      "location": "Truckee, CA"
-    },
-    {
-      "id": 10,
-      "first": "Genna",
-      "last": "Masters",
-      "email": "Truckee, CA"
-    },
-    {
-      "id": 11,
-      "first": "Jenae",
-      "last": "Pino",
-      "email": "Truckee, CA"
-    },
-    {
-      "id": 12,
-      "first": "Sarah",
-      "last": "Hoyle",
-      "email": "Truckee, CA"
-    },
-    {
-      "id": 13,
-      "first": "Sarah",
-      "last": "McClairie",
-      "email": "Truckee, CA"
+      "first": "Sonja",
+      "last": "Lakner",
+      "email": "sonja.lakner@futurice.com"
     }
   ]
